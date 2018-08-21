@@ -5,6 +5,17 @@ public class Customer {
 	private String lastName;
 	private String firstName;
 
+	public Customer() {
+		super();
+	}
+
+	public Customer(int id, String lastName, String firstName) {
+		super();
+		this.id = id;
+		this.lastName = lastName;
+		this.firstName = firstName;
+	}
+
 	public int getId() {
 		return id;
 	}
