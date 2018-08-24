@@ -1,0 +1,34 @@
+TP2 
+Collections
+
+L’objectif est d’utiliser les différents types de collections (List, Set et Map)
+
+Avant d’utiliser les collections, on introduit les génériques
+
+1.	Créer une classe TableauInteger qui stocke un nombre prédéterminé de valeurs (passé en paramètre du constructeur) sous la forme d’Integer
+2.	Ecrire les méthodes 
+a.	public int get(int index)
+b.	public void set(int index, int value)
+c.	public int size()
+3.	Utiliser TableauInteger
+a.	Instancier un TableauInteger avec 3 éléments. 
+b.	Remplir le tableau
+c.	Lister les éléments du tableau dans une boucle
+4.	Refaire la même chose avec un Tableau de chaîne de caractères (TableauString)
+5.	Quelle conclusion tirer en regardant les deux classes TableauInteger et TableauString
+6.	Comment généraliser ?
+7.	Créer une classe TableauObject sur le même moule des deux premières classes. 
+8.	Insérer des points, dans une instance de TableauObject, et afficher l’attribut x de chaque Point dans une boucle.
+9.	Généraliser le code en utilisant les génériques (à faire avec le formateur). 
+
+Les collections
+1.	Créer une liste d’entier et un ensemble d’entier ajouter des éléments (100, i index de la boucle)
+2.	Constater les différences entre la liste et l’ensemble.
+3.	Que se passe t-il lorsque les éléments sont insérés par ordre décroissant ? Comment y remédier ? (Regarder les différentes implémentations de Set)
+4.	 Créer une map pour associer les informations d’une personne (nom, prenom, …) à leur valeurs. 
+a.	Ajouter des entrées (méthode put(key, value))
+b.	Obtenir les valeurs pour les clefs entrées (méthode get(key)). 
+c.	Déterminer la présence d’une clef. 
+d.	Itérer les clefs / valeurs et constater l’ordre d’apparition des clefs. Comment forcer l’apparition des clefs par l’ordre d’insertion  dans la table ? 
+
+
